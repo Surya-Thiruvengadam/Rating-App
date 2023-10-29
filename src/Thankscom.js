@@ -3,7 +3,7 @@ import them from "./images/illustration-thank-you.svg";
 function Thankscom({ rating }) {
   return (
     <div id="thankscom">
-      <img src={them} />
+      <img src={them}  alt="thanks"/>
       <h5> You selected {rating} out of 5</h5>
       <h1>Thank you!</h1>
 
