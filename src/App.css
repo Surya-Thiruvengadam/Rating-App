@@ -17,7 +17,7 @@ body {
   border-radius: 20px;
   font-size: 15px;
   background-color: var(--DarkBlue);
-  transform: scale(1.4);
+  transform: scale(1.2);
   color: var(--White);
 }
 
@@ -38,7 +38,7 @@ ul {
   display: flex;
   margin: 30px auto;
 }
-li {
+.li ,.clickedli {
   width: 5%;
   padding: 5%;
   border-radius: 100%;
@@ -47,14 +47,14 @@ li {
   border: unset;
   font-weight: 600;
   text-align: center;
-}
-
-li:hover {
-  background-color: var(--Orange);
-  color: var(--White);
   cursor: pointer;
 }
-li[check="true"] {
+
+.li:hover {
+  background-color: var(--Orange);
+  color: var(--White);
+}
+.clickedli {
   background-color: hsl(214, 4%, 61%);
 }
 button {

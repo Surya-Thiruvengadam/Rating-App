@@ -13,7 +13,7 @@ function Ratingcom({ setrating }) {
           <li
             key={index}
             onClick={() => clickhandler(index)}
-            check={value == index ? "true" : "false"}
+            className={value===index?'clickedli':'li'}
           >
             {element}
           </li>
